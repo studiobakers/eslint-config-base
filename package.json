@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-hipo-base",
+  "version": "1.0.0",
+  "description": "Shareable ESLint configuations for ECMAScript 5 and beyond",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hipo/eslint-config-hipo-base.git"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint",
+    "hipo"
+  ],
+  "author": "Hipo Web Team",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Hipo/eslint-config-hipo-base/issues"
+  },
+  "homepage": "https://github.com/Hipo/eslint-config-hipo-base#readme",
+  "peerDependencies": {
+    "eslint": ">= 3.16.1"
+  }
+}
