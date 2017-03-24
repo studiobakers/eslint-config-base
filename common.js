@@ -87,6 +87,7 @@ module.exports = {
       "error",
       {
         ignore: [
+          1,
           0,
           -1
         ]
@@ -234,7 +235,9 @@ module.exports = {
     // "id-match": ["error", "^[a-z]+([A-Z][a-z]+)*$"],
     "indent": [
       "error",
-      2
+      2, {
+        "SwitchCase": 1
+      }
     ],
     "jsx-quotes": [
       "error",
