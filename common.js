@@ -233,7 +233,8 @@ module.exports = {
       }
     ],
     // "id-match": ["error", "^[a-z]+([A-Z][a-z]+)*$"],
-    "indent": [
+    "indent": "off",
+    "indent-legacy": [
       "error",
       2, {
         "SwitchCase": 1
