@@ -1,18 +1,7 @@
-# eslint-config-hipo-base
-Shareable ESLint configuations for ECMAScript 5 and beyond
+# @hipo/eslint-config-base
 
-For ECMAScript 5:
-
-```javascript
-{
-  "extends": "eslint-config-hipo-base/es5"
-}
-```
-
-For ECMAScript 2015 and beyond please:
+Hipo's shareable ESLint configuations for ECMAScript 2015 and beyond.
 
 ```javascript
-{
-  "extends": "eslint-config-hipo-base"
-}
+npm i --save-dev @hipo/eslint-config-base
 ```
