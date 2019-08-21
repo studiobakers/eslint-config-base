@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/Hipo/eslint-config-hipo-base#readme",
   "peerDependencies": {
-    "eslint": "6.1.0"
+    "eslint": "6.2.1"
   }
 }
