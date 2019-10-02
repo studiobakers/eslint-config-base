@@ -35,11 +35,10 @@ module.exports = {
     "accessor-pairs": "error",
     "array-callback-return": "error",
     "block-scoped-var": "error",
-    "class-methods-use-this": "error",
     "complexity": [
       "error",
       {
-        max: 6
+        max: 10
       }
     ],
     "consistent-return": "error",
@@ -211,10 +210,6 @@ module.exports = {
       "error",
       "never"
     ],
-    "func-names": [
-      "error",
-      "never"
-    ],
     "func-style": [
       "error",
       "declaration",
@@ -223,15 +218,6 @@ module.exports = {
       }
     ],
     // id-blacklist": ["error", []],
-    "id-length": [
-      "error",
-      {
-        exceptions: [
-          "i",
-          "e"
-        ]
-      }
-    ],
     // "id-match": ["error", "^[a-z]+([A-Z][a-z]+)*$"],
     "indent": "off",
     "indent-legacy": [
@@ -508,6 +494,22 @@ module.exports = {
       "error",
       "never"
     ],
-    "wrap-regex": "error"
+    "wrap-regex": "error",
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          [
+            "external",
+            "internal"
+          ],
+          [
+            "sibling",
+            "parent"
+          ]
+        ],
+        "newlines-between": "always"
+      }
+    ],
   }
 };
