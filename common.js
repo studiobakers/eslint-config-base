@@ -494,22 +494,6 @@ module.exports = {
       "error",
       "never"
     ],
-    "wrap-regex": "error",
-    "import/order": [
-      "error",
-      {
-        "groups": [
-          [
-            "external",
-            "internal"
-          ],
-          [
-            "sibling",
-            "parent"
-          ]
-        ],
-        "newlines-between": "always"
-      }
-    ],
+    "wrap-regex": "error"
   }
 };
