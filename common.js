@@ -176,8 +176,8 @@ module.exports = {
     ],
     // "capitalized-comments": "warn",
     "comma-dangle": [
-      "error",
-      "never"
+      "warn",
+      "always-multiline"
     ],
     "comma-spacing": [
       "error",
