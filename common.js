@@ -38,7 +38,7 @@ module.exports = {
     "complexity": [
       "error",
       {
-        max: 10
+        max: 20
       }
     ],
     "consistent-return": "error",
