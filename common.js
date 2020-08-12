@@ -168,12 +168,7 @@ module.exports = {
       "error",
       "1tbs"
     ],
-    "camelcase": [
-      "error",
-      {
-        properties: "never"
-      }
-    ],
+    "camelcase": "off",
     // "capitalized-comments": "warn",
     "comma-dangle": [
       "error",
