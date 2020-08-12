@@ -154,7 +154,7 @@ module.exports = {
         args: "none"
       }
     ],
-    "no-use-before-define": "error",
+    "no-use-before-define": ["error", { "functions": false, "classes": true }],
     // stylistic
     "array-bracket-spacing": [
       "error",
