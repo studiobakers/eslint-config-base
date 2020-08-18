@@ -36,7 +36,7 @@ module.exports = {
     "array-callback-return": "error",
     "block-scoped-var": "error",
     "complexity": [
-      "error",
+      "warn",
       {
         max: 20
       }
