@@ -1,6 +1,6 @@
 {
   "name": "@hipo/eslint-config-base",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "Shareable ESLint configuations for ECMAScript 5 and beyond",
   "main": "index.js",
   "scripts": {
