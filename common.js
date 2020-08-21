@@ -36,9 +36,9 @@ module.exports = {
     "array-callback-return": "error",
     "block-scoped-var": "error",
     "complexity": [
-      "error",
+      "warn",
       {
-        max: 10
+        max: 20
       }
     ],
     "consistent-return": "error",
@@ -154,7 +154,7 @@ module.exports = {
         args: "none"
       }
     ],
-    "no-use-before-define": "error",
+    "no-use-before-define": ["error", { "functions": false, "classes": true }],
     // stylistic
     "array-bracket-spacing": [
       "error",
@@ -168,12 +168,7 @@ module.exports = {
       "error",
       "1tbs"
     ],
-    "camelcase": [
-      "error",
-      {
-        properties: "never"
-      }
-    ],
+    "camelcase": "off",
     // "capitalized-comments": "warn",
     "comma-dangle": [
       "error",
