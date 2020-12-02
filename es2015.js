@@ -1,4 +1,6 @@
 module.exports = {
+  // `eslint-plugin-import` related plugin
+  plugins: ['import'],
   rules: {
     // es6
     "arrow-body-style": [
@@ -46,7 +48,6 @@ module.exports = {
       }
     ],
     "no-new-symbol": "error",
-    // "no-restricted-imports": ["warn", {"paths": [], "patterns": []}],
     "no-this-before-super": "error",
     "no-useless-computed-key": "error",
     "no-useless-constructor": "error",
@@ -86,7 +87,6 @@ module.exports = {
         enforceForRenamedProperties: false
       }
     ],
-    // prefer-numeric-literals: ["warn"],
     "prefer-rest-params": "error",
     "prefer-spread": "error",
     "prefer-template": "error",
@@ -95,7 +95,6 @@ module.exports = {
       "error",
       "never"
     ],
-    // "sort-imports": ["warn"]
     "symbol-description": [
       "error"
     ],
@@ -106,6 +105,31 @@ module.exports = {
     "yield-star-spacing": [
       "error",
       "after"
-    ]
+    ],
+    // `eslint-plugin-import` related rules
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        groups: [
+          ["builtin", "external"],
+          ["sibling", "parent", "internal", "index"]
+        ],
+        pathGroups: [
+          {
+            pattern: "*.+(svg|pdf|csv|png)",
+            patternOptions: {
+              dot: true,
+              nocomment: true,
+              matchBase: true
+            },
+            group: "builtin",
+            position: "before"
+          }
+        ]
+      }
+    ],
+    "import/no-duplicates": "error",
+    "import/no-unresolved": "error"
   }
 }
