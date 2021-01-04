@@ -1,6 +1,6 @@
 module.exports = {
   // `eslint-plugin-import` related plugin
-  plugins: ['import'],
+  plugins: ["import"],
   rules: {
     // es6
     "arrow-body-style": [

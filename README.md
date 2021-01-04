@@ -20,21 +20,30 @@ Set your eslint config to:
 
 ## TypeScript
 
-If you are using TypeScript, to avoid false `import/no-unresolved` errors, you should add `plugin:import/typescript` to your eslint config **(RECOMMENDED)**:
-
-```
-{
-  "extends": ["@hipo/eslint-config-base", "plugin:import/typescript"]
-}
-```
-
-or you can turn off `"import/no-unresolved"` rule in your eslint config:
-
-```
-{
-  rules:{
-    ...
-    "import/no-unresolved": "off"
+* Disable `no-undef` in your eslint config as TSC already catches related errors. `no-undef` rule causes problems if you try to use TS only features like `enums`.
+  ```
+  {
+    rules:{
+      ...
+      "no-undef": "off"
+    }
   }
-}
-```
+  ```
+* To avoid false `import/no-unresolved` errors, you should add `plugin:import/typescript` to your eslint config **(RECOMMENDED)**:
+
+  ```
+  {
+    "extends": ["@hipo/eslint-config-base", "plugin:import/typescript"]
+  }
+  ```
+
+  or you can turn off `"import/no-unresolved"` rule in your eslint config:
+
+  ```
+  {
+    rules:{
+      ...
+      "import/no-unresolved": "off"
+    }
+  }
+  ```
