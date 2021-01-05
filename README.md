@@ -20,7 +20,7 @@ Set your eslint config to:
 
 ## TypeScript
 
-* Disable `no-undef` in your eslint config as TSC already catches related errors. Enabled `no-undef` rule causes problems if you try to use TS only features like `enums`.
+* Disable `no-undef` in your eslint config as TSC already catches related errors. Enabled `no-undef` rule causes problems if you try to use TS only features like `enum`.
   ```
   {
     rules:{
