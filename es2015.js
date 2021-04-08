@@ -117,7 +117,7 @@ module.exports = {
         ],
         pathGroups: [
           {
-            pattern: "*.+(svg|pdf|csv|png)",
+            pattern: "*.+(svg|pdf|csv|png|json)",
             patternOptions: {
               dot: true,
               nocomment: true,
