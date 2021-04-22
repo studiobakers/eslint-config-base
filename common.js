@@ -29,7 +29,6 @@ module.exports = {
     "no-unsafe-finally": "error",
     "no-unsafe-negation": "error",
     "use-isnan": "error",
-    "valid-jsdoc": "error",
     "valid-typeof": "error",
     // best practices
     "accessor-pairs": "error",
