@@ -1,6 +1,6 @@
 # @hipo/eslint-config-base
 
-Hipo's shareable ESLint configuations for ECMAScript 2015 and beyond.
+Hipo's shareable ESLint configurations for ECMAScript 2015 and beyond.
 
 ## Installation
 
