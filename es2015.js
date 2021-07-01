@@ -3,7 +3,13 @@ module.exports = {
   plugins: ["import"],
   rules: {
     // es6
-    "arrow-body-style": "off",
+    "arrow-body-style": [
+      "warn",
+      "as-needed",
+      {
+        requireReturnForObjectLiteral: false
+      }
+    ],
     "arrow-parens": [
       "error",
       "as-needed",
