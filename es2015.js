@@ -4,7 +4,7 @@ module.exports = {
   rules: {
     // es6
     "arrow-body-style": [
-      "error",
+      "warn",
       "as-needed",
       {
         requireReturnForObjectLiteral: false
