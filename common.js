@@ -87,7 +87,8 @@ module.exports = {
         ignore: [
           1,
           0,
-          -1
+          -1,
+          "0n"
         ]
       }
     ],
