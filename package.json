@@ -1,6 +1,6 @@
 {
   "name": "@hipo/eslint-config-base",
-  "version": "4.3.0",
+  "version": "4.3.1",
   "description": "Shareable ESLint configurations for ECMAScript 5 and beyond",
   "main": "index.js",
   "scripts": {
@@ -8,19 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hipo/eslint-config-hipo-base.git"
+    "url": "git+https://github.com/studiobakers/eslint-config-base"
   },
   "keywords": [
     "eslintconfig",
     "eslint",
+    "bakers",
     "hipo"
   ],
-  "author": "Hipo Web Team",
+  "author": "Bakers Web Team",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/Hipo/eslint-config-hipo-base/issues"
+    "url": "https://github.com/studiobakers/eslint-config-base/issues"
   },
-  "homepage": "https://github.com/Hipo/eslint-config-hipo-base#readme",
+  "homepage": "https://github.com/studiobakers/eslint-config-base/blob/master/README.md",
   "peerDependencies": {
     "eslint": "^8.6.0",
     "eslint-plugin-import": "^2.25.4"
